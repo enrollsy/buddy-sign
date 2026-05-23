@@ -1,10 +1,10 @@
 {:deps
- {buddy/buddy-core
-  {;; :mvn/version "1.12.0-430"
-   ;; :local/root "../buddy-core"
-   :git/url "https://github.com/enrollsy/buddy-core"
-   :git/tag "update-bouncycastle"
-   :git/sha "acea48a"}}
+ {;buddy/buddy-core
+  ;{:mvn/version "1.12.0-430"
+  ; ;; :local/root "../buddy-core"
+  ; }
+  com.enrollsy/buddy-core {:mvn/version "1.12.0-433"}
+  }
  :paths ["src" "resources" "target/classes"]
  :aliases
  {:dev
